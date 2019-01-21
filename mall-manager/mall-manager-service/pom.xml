@@ -9,7 +9,7 @@
   <dependencies>
 		<dependency>
 			<groupId>cl.mall</groupId>
-			<artifactId>mall-manage-dao</artifactId>
+			<artifactId>mall-manager-dao</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

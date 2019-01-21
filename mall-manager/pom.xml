@@ -7,7 +7,7 @@
   </parent>
   <artifactId>mall-manager</artifactId>
   <packaging>pom</packaging>
-  <dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>cl.mall</groupId>
 			<artifactId>mall-parent</artifactId>
@@ -18,7 +18,6 @@
   <modules>
   	<module>mall-manager-pojo</module>
   	<module>mall-manager-dao</module>
-  	<module>mall-manage-dao</module>
   	<module>mall-manager-interface</module>
   	<module>mall-manager-service</module>
   </modules>

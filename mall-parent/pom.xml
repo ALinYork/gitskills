@@ -261,11 +261,4 @@
 		</pluginManagement>
 	</build>
   
-	<modules>
-		<module>mall-manager-dao</module>
-		<module>mall-manager-pojo</module>
-		<module>mall-manager-interface</module>
-		<module>mall-manager-service</module>
-		<module>mall-manager-web</module>
-	</modules>
 </project>
