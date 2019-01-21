@@ -18,5 +18,22 @@
   <modules>
   	<module>mall-manager-pojo</module>
   	<module>mall-manager-dao</module>
+  	<module>mall-manage-dao</module>
+  	<module>mall-manager-interface</module>
+  	<module>mall-manager-service</module>
   </modules>
+  <!-- 配置tomcat插件 -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<port>8080</port>
+					<path>/</path>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+  
 </project>
