@@ -7,7 +7,11 @@ import com.taotao.dao.TbItemMapper;
 import com.taotao.pojo.TbItem;
 import com.taotao.service.QueryItemInfoByIdService;
 
+import jdk.nashorn.internal.objects.annotations.Getter;
+import jdk.nashorn.internal.objects.annotations.Setter;
+
 @Service
+
 public class QueryItemInfoByIdServiceImpl implements QueryItemInfoByIdService{
 
 	@Autowired(required=true)

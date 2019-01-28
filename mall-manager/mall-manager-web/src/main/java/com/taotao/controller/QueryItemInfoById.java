@@ -17,9 +17,9 @@ public class QueryItemInfoById {
 	
 	@RequestMapping("item/{itemId}")
 	@ResponseBody
-	public TbItem query(@PathVariable Long itemId) {
+	public String query(@PathVariable Long itemId) {
 		TbItem tbItem = queryItemInfoByIdService.queryInfo(itemId);
-		return tbItem;
+		return "a";
 	}
 
 }

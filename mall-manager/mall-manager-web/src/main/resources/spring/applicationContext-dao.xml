@@ -27,10 +27,13 @@
 		<property name="dataSource" ref="dataSource"></property>
 		<!-- 加载mybatis的全局配置文件 -->
 		<property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml"></property>
+		<!-- 自动扫描mapping.xml文件 -->
+		<property name="mapperLocations" value="classpath:com/taotao/mapper/*.xml"></property>
 	</bean>
 	
-	<!-- 扫描mybatis mapper文件 -->
+	<!-- 扫描mybatis dao接口文件 -->
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.taotao.mapper"></property>
+		<property name="basePackage" value="com.taotao.dao"></property>
 	</bean>
+	
 </beans>
